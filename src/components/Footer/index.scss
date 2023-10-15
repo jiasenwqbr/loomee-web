@@ -1,0 +1,129 @@
+@media screen and (min-width: 1200px){
+.footer{
+    background: #2C2C34;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #fff;
+    .footer-w{
+        width: 1240px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer-l{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .footer-l-u{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 40px;
+            width: 100%;
+            .u-logo{
+                width: 140px;
+                height: 25px;
+                margin-bottom: 15px;
+            }
+        }
+        .footer-l-d{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .d-logo{
+                width: 30px;
+                height: 30px;
+                margin-right: 20px;
+                cursor: pointer;
+            }
+            .d-text{
+                margin-top:15px;
+            }
+        }
+    }
+    .footer-r{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        .links{
+            margin-left: 100px;
+        }
+        .link-item{
+            padding:0 15px 15px;
+            line-height:25px;
+            cursor: pointer;
+        }
+    }
+ }
+}
+@media screen and (min-width: 360px) and (max-width: 1200px){
+    .footer{
+        background: #2C2C34;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding:50px 20px 20px;
+        color: #fff;
+        .footer-l{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          
+            .footer-l-u{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 20px;
+                width: 100%;
+                .u-logo{
+                    width: 100px;
+                    margin-bottom:15px;
+                }
+            }
+            .footer-l-d{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .d-imgs{
+                    margin-bottom: 15px;
+                }
+                .d-logo{
+                    width: 20px;
+                    height:20px;
+                    margin-right: 15px;
+                }
+                .d-text{
+                }
+            }
+        }
+        .footer-r{
+            display: flex;
+            margin-top: 30px;
+            width: 100%;
+            .links{
+                width: calc(100%/3);
+            }
+            .link-item{
+                padding:5px 0px;
+                font-size: 12px;
+            }
+            .links-l{
+                width: 30%;
+            }
+            .links-r{
+                width: 30%;
+                .link-item{
+                    text-align: right;
+                   
+                }
+            }
+            .links-c{
+                width: 40%;
+                .link-item{
+                    text-align: center;
+                }
+            }
+        }
+     }
+}
